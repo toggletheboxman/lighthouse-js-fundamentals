@@ -21,3 +21,33 @@ if (temperature < 0) {
   console.log('Short sleeves are fine.');
 }
 console.log('Now you\'re ready to go outside!');
+
+const isCitizen = false;
+const age = 19;
+
+if (isCitizen && age >= 18) {
+  console.log('You are eligible to vote!');
+};
+
+const isWeird = true;
+const hobby = 'none'
+
+if (isWeird || hobby === 'none') {
+  console.log('You should get out more.');
+};
+
+var crying = false;
+
+if (!crying) {
+  console.log('Keep smilin\'');
+} else {
+  console.log('Cheer up, kiddo');
+};
+
+var laughing = true;
+
+if (!laughing) {
+  console.log('C\'MON!');
+} else {
+  console.log('What\'s so funny, man?');
+};
