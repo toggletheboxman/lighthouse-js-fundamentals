@@ -36,7 +36,7 @@ if (isWeird || hobby === 'none') {
   console.log('You should get out more.');
 };
 
-var crying = false;
+let crying = false;
 
 if (!crying) {
   console.log('Keep smilin\'');
@@ -44,7 +44,7 @@ if (!crying) {
   console.log('Cheer up, kiddo');
 };
 
-var laughing = true;
+let laughing = true;
 
 if (!laughing) {
   console.log('C\'MON!');
